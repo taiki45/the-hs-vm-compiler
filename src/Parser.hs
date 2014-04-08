@@ -1,4 +1,6 @@
-module Parser where
+module Parser
+    ( parse
+    , parser )where
 
 import Text.ParserCombinators.Parsec
 import Control.Applicative ((<$>))
